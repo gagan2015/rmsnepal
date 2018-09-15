@@ -18,9 +18,9 @@
   },
   "homepage": "https://github.com/eroberer/Restoraunt-Application-WebServices-NodeJS#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "md5": "^2.2.1",
-    "mysql": "^2.13.0"
+    "mysql": "^2.16.0"
   }
 }

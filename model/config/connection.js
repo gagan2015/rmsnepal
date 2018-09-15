@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 const pool = mysql.createPool({
     connectionLimit: 25,
-    host     : 'localhost',
-    user     : 'root',
-    password : '',
-    database : 'restoran'
+    host     : 'sql12.freemysqlhosting.net',
+    user     : 'sql12256952',
+    password : 'W8H7PvUvhI',
+    database : 'sql12256952'
 });
 
 function getImageHost(dir = "") {
