@@ -130,6 +130,6 @@ app.get('/detail/:productId', (req, res) => {
    }
 });
 
-app.listen(443, () => {
-    console.log('http://localhost:443 runnig');
+app.listen(process.env.PORT || 9090, () => {
+    console.log('http://localhost:9090 runnig');
 }); 
